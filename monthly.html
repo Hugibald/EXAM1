@@ -26,7 +26,8 @@
       </ul>
     </nav>
     <!-- navbar two -->
-    <nav id="nav2">
+    <!-- class for media query -->
+    <nav id="nav2" class="nav2">
       <a href="#">Breakfast</a>
       <a href="#">Lunch</a>
       <a href="#">Dinner</a>
@@ -38,16 +39,46 @@
     <!-- Main -->
     <div class="main">
       <h2 class="heading2">Recipe of the month!</h2>
-
-      <!-- ids for easier access for later styling -->
-      <p id="M1">
-        This months recipe is from <span class="username">Monica</span>.
-      </p>
+      <!-- Recipe-hero-section -->
+      <p>This months recipe is from <span class="username">Monica</span>.</p>
       <br />
       <div class="monthly">
         <h3 class="heading3">Easy Baked Spicy Sesame Butter Chicken</h3>
+        <!-- Picture -->
         <img src="Pictures/Monthly.png" alt="Monthly Dish" id="monpic" />
         <br />
+        <!-- Rating bar -->
+        <div class="difficulty">
+          <div class="difficulty1">
+            <span class="time1">Difficulty:</span>
+            <ul class="rating">
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-regular fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-regular fa-star"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="difficulty1">
+            <span class="time1">Price-Category:</span>
+            <ul class="rating">
+              <li><i class="fa-solid fa-euro-sign"></i></li>
+              <li><i class="fa-solid fa-euro-sign"></i></li>
+              <li><i class="fa-solid fa-euro-sign"></i></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
         <div class="time">
           <span class="time1">Prep Time</span>
           <span class="time1">Cook Time</span>
@@ -59,6 +90,7 @@
           <span class="time2">45min</span>
         </div>
       </div>
+      <!-- Ingredients and Instructions -->
       <div class="how2">
         <div class="ingredients">
           <h3>Ingredients for 6 servings</h3>
