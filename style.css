@@ -306,6 +306,12 @@ footer {
   .nav1-links {
     font-size: 0.6rem;
   }
+  .popular p {
+    font-size: 0.6rem;
+  }
+  .RA {
+    font-size: 0.4rem;
+  }
 }
 
 /* Tablets */
